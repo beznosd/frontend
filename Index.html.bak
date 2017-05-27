@@ -8,7 +8,7 @@
   </head>
  <body>
  <center><img src="img/gi.png" width="187" height="187" border="0" alt="" onclick="comands()"></center>
- <table> <!-- Знаю табличная верстка уже не используеться  -->
+ <table>
  <tr>
 	<td><a href="pages/pages.html" disabled>ШТАТКА</a> &nbsp;&nbsp;&nbsp;</td>
 	<td>&nbsp;&nbsp;&nbsp;<a href="" disabled>ЗАКРІПЛЕННЯ ЗБРОЇ</a></td>
