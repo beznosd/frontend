@@ -1,4 +1,3 @@
-# frontend
-Front-end Group BrainAcademy Zaporizhya
+# Front-end Group BrainAcademy Zaporizhya
 
-## test content
+Репозиторий нашей группы
