@@ -1,0 +1,60 @@
+body{
+background-color:#fff1ac;
+}
+/*Работаю с заголовком 1-го уровня, добавил стили и разместил по центру!*/
+h1{
+font-family:Arial;
+font-size:20px;
+color:#023876;
+text-align:center;
+}
+/*работаю с заголовком 2-го уровня, добавил стили и разместил по центру!*/
+h2{
+font-family:Tachoma;
+font-size:16px;
+color:#440072;
+text-align: center;
+}
+h3{
+font-family:Georgia;
+font-size:20px;
+color:#ffffff;
+text-align:right;
+}
+/*Работаю со списками*/
+ul{
+background-color:#ff9a98;
+line-height: 1;
+padding:30px;
+margin:10px;
+margin-top:300px;
+}
+li{
+background-color:#fce7e2;
+border:10px;
+border-color:#ff9a98;
+padding:10px;
+margin:3px;
+}
+/*Задал шрифт в списке!*/
+ul,li{  
+font-family:Arial Narrow;
+font-size:18px;
+}
+.unbox{
+background-color:#ffffff;
+height:80px;
+}
+h5{
+text-align:center;
+font-family:Arial;
+font-size:14px;
+position:absolute;
+margin-left:45%;
+margin-top:30px;
+}
+.one{
+background-image:url(abw.png);
+height:300px
+
+}
