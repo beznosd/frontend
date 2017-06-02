@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: #fff1ac;
+  
+}
+
+header{
+	height: 110px;
+	width: 100%;
+}
+
+header h2{
+	font-family: 'Open Sans', sans-serif;
+	color: blue;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+header h4{
+	font-family: arial;
+	text-align: center;
+	color: #6b207f;
+}
+
+main{
+	width: 100%;
+	height: 800px;
+	background: url(../images/city.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+main p{
+	margin: 0px 15px;
+	padding-top: 25px;
+	text-align: right;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	color: white;
+}
+
+.button1{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.button1 a{
+	color: white;
+	text-decoration: none;
+	user-select: none;
+	background: green;
+	padding: .7em 1.5em; 
+	border: 5px solid grey;	
+	font-family: Arial;
+	margin-top: 100px;
+}
+
+.button1 a:hover {
+	background: darkgreen;
+}
+
+.service_list{	
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.service_list p{
+	font-family: arial;
+}
+
+.block2{
+	height: 140px;
+	width: 100%;
+	background-color: #ff999a;
+}
+
+.block2 ul{
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+.block2 li
+{
+	background-color: #fee5eb;
+	margin-top: 3px;
+	margin-right: 20px;
+	font-family: arial;
+	font-size: 15px;
+	padding: 3px;
+}
+
+.block2 a{
+	text-decoration: none;
+	color: black;
+}
+
+footer{
+	height: 75px;
+	width: 100%;
+	background: white;	
+	 
+}
+
+footer p{
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Barrio', cursive;
+}
