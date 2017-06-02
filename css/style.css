@@ -1,0 +1,23 @@
+* {
+	font-family: helvetica, arial, sans-serif;
+}
+
+p{
+	color: #8B00FF;
+	font-size:18px; 
+}
+td {
+	color: #C5007F;
+}
+
+h1 {
+	color: #C5007F;
+}
+h2 { color: #FF99CC;
+}
+h3 {
+	object-position: right;
+}
+h4 {object-position: center;
+}
+

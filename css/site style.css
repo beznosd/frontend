@@ -1,0 +1,72 @@
+html{
+	display: block;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: 
+	url(images/new_york_city.jpg);
+	background-repeat: no-repeat;
+	background-position: left-top;
+}
+body{
+	display: block;
+}
+#top_bar_white {
+	width: 100%;
+	height: 90px;
+	background-color: #000000
+}
+div {
+	display: block;
+}
+#content_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div {
+	display: block;
+}
+#bottom_bar_white {
+	width: 100%;
+	height: 160px;
+	background-color: black;
+
+}
+div {
+	display: block
+}
+#copywriteblock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	color: #FFFFFF
+	font-size: 10px;
+	margin-top: 100px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 10px;
+
+}
+div {
+	display: block;
+}
+h1 {
+	color: white;
+	font-size: 30px;
+}
+h2 {
+	color: white; 
+	font-size: 20px;
+}
+td {
+	color: #000000;
+}
+p{
+	color: white;
+	font-size:20px; 
