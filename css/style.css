@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+ul {
+	background-color: grey;
+	text-transform: uppercase;
+	width: 200px;
+	list-style-type:none;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.ssilka {
+	padding: 20px 40px 20px 15px;
+	display: block;
+}
+
+li:hover {
+	background-color: green;
+}
+
+a:hover {
+	color: white;
+}
