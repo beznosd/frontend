@@ -1,5 +1,3 @@
 # Front-end Group BrainAcademy Zaporizhya
 
-## test content
-1
-Репозиторий нашей группы
+## Решенное вертикальное меню в папке vertical-menu
