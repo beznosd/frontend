@@ -1,0 +1,53 @@
+ul{
+   width: 200px;
+   padding-left: 5px;
+   padding-top: 5px;
+   height: 160px;
+   background:#f1f1f1;
+   font-family:Microsoft Sans Serif;
+   font-size:16px;
+   color:#a5a5a5;
+   list-style-type:none;
+}
+.punkt_a{
+	width: 197px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-top: 10px;
+    }   
+.punkt_a:hover{
+    color: #ffffff;
+	background:#6ca64f;
+	}
+.punkt_b{
+	padding-top: 10px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+     }   
+.punkt_b:hover{
+    color: #ffffff;
+	background:#6ca64f;
+	}
+.punkt_c{
+	padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    }   
+.punkt_c:hover{
+     color: #ffffff;
+	background:#6ca64f;
+	}
+.punkt_d{
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+    }   
+.punkt_d:hover{
+   color: #ffffff;
+   background:#6ca64f;
+    }
+
+
+
