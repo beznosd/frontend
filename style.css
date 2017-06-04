@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans|PT+Sans|Pacifico');
+
+.header h1{
+	background: #FFCC33
+	font-family: 'Open Sans';
+}
+}
+
+	div > h2 {
+		font-family: Indie+Flower;
+		background: #FFCC33;
+}
+.main {
+	background-image: url(D:/frondend/images/city.jpg);
+	height: 500px;
+	color: #FEFDF3;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+
+
+#buttonEffet{
+		margin: auto;
+		background-color: #009933;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: PT+Sans;
+		padding: 7px 15px;
+		display: block;
+		border:4px solid #909090;
+		border-radius: 5px;
+		color: #ffffff;
+		transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		}
+#buttonEffet:hover {
+	background-color: #ffffff;
+	color: #009933;
+	border-color: #909090;
+}
+
+ul {border: 20px solid #ff0033; /* Параметры границы */
+    background: #ffffff; /* Цвет фона */
+    padding: 7px; /* Поля вокруг текста */
+}
+
+p {font-family: pacifico;
+	text-align: center}
