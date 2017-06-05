@@ -1,34 +1,40 @@
 * {
-	padding: 0;
 	margin: 0;
-}
-
-body {
+	padding: 0;
 	font-family: sans-serif;
 }
 
-ul {
-	background-color: grey;
-	text-transform: uppercase;
-	width: 200px;
-	list-style-type:none;
-	margin: 20px;
+div.container {
+	height: 60px;
+	width: 100%;
+	background: #1e1e1e;
+}
+
+div.menu {
+	height: 60px;
+	width: 1024px;
+	margin: 0 auto;
 }
 
 a {
 	text-decoration: none;
-	color: black;
-}
-
-.ssilka {
-	padding: 20px 40px 20px 15px;
+	color: white;
+	text-align: center;
+	padding: 20px;
 	display: block;
 }
 
-li:hover {
-	background-color: green;
+li {
+	list-style-type: none;
+	float: left;
+}
+
+li:last-child {
+	float: right;
+	background: green;
 }
 
 a:hover {
-	color: white;
+	background: lightgreen;
+	color: black;
 }
