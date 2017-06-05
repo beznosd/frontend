@@ -1,0 +1,96 @@
+body {
+background: #FFEC8B;
+margin: 0px;
+padding: 0px;
+
+}
+
+h1 {
+color: #191970;
+text-align: center;
+font-family:arial;
+}
+
+h3 {
+text-align: center;
+color: #7c196a;
+font-family:arial; 
+}
+
+p {
+font-weight: bold;
+margin-left: 43px;
+}
+.img_content {
+background-image: url(../images/new_york_city.jpg);
+width: 100%;
+height: 600px;
+background-attachment: fixed;
+}
+
+.img_content h1 {
+font-family: "Comic Sans MS", cursive, sans-serif;
+text-align: right;
+color:white;
+padding: 30px 30px 0 0;
+
+}
+
+button {
+background-color:  green;
+margin: 40px;
+border-radius: 5px; 
+border-color: grey;
+border-size: 2px;
+border-style: solid;
+color: white;
+}
+
+button:active { 
+border-color: blue;
+background-color: yellow;
+}
+
+button:hover { 
+border-color: orange;
+background-color: indigo;
+color: #ffff00;
+}
+.button {
+width: 100%;
+text-align: center;
+}
+
+.spisok {
+margin: 0px;
+padding: 0px;
+height: 170px;
+font-weight: bold;
+line-height: 120%;
+
+}
+
+.spisok ul { 
+background: #F08080;
+padding: 23px 20px 20px 38px;
+}
+
+.spisok li {
+	background: #FFF2E4;
+	margin: 5px;
+	padding: 6px 5px 0 0;
+	font-family: trebuchet; 
+} 
+
+.footer {
+	background-image: url(../images/preved_medved.jpg); 
+	background-color: #FFFFE0;
+	height: 60px;
+	text-align: center;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.footer p {
+	padding: 20px 100px 20px 100px;
+}
