@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	background-color: #FFF2AA;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #03436C;
+}
+
+h2 {
+	color: #67016E;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+/* Photo */
+
+.photo-block {
+	height: 600px;
+	background-image: url('../images/new_york_city.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+	padding-right: 15px;
+	text-align: right;
+	font-family: 'Indie Flower';
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+/* Button */
+
+.button-block {
+	margin: 50px 0;
+	text-align: center;
+}
+
+a.button {
+	padding: 10px 20px;
+	background: green;
+	border: 4px solid grey;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.button:hover {
+	background: lightgreen;
+	color: grey;
+}
+
+a.button:active {
+	border: 4px solid green;
+}
+
+/* List */
+
+.list-block p {
+	padding-left: 50px;
+}
+
+ul {
+	background: #ff9999;
+  padding: 20px;
+}
+
+ul li {
+	background: #ffe5e5;
+	margin: 5px;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+/* Footer */
+
+.footer { 
+	background: #fff url(../images/preved_medved.jpg) no-repeat right top;
+	padding: 20px;
+	text-align: center;
+}
