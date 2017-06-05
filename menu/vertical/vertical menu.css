@@ -1,0 +1,27 @@
+
+
+.navigation {
+	list-style: none;
+	width: 200px;
+}
+
+.navigation li {
+	margin-bottom: 5px;
+	zoom; 1; 
+}
+
+.navigation li, a {
+	display: block;
+	padding: 3px 5px;
+	font-family: sans-serif;
+	text-decoration: none;
+	background: lightblue;
+	color: purple;
+	position: relative;
+}
+
+.navigation li a:hover {
+	background: grey;
+	color: #fff;
+	text-decoration: underline;
+}
