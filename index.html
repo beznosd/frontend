@@ -2,30 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="style.css">
+	<title>Menu vertical</title>
+	<style>
+		ul {
+			list-style-type: none;
+			width: 250px;
+			font-family: sans-serif;
+			text-transform: uppercase;
+		}
+
+		ul li {
+			padding: 10px 20px;
+			background-color: #f1f1f1;
+		}
+		
+		ul li a{
+			text-decoration: none;
+			color: darkgrey;
+		}
+
+		ul li:hover {
+			background-color: #4caf50;
+			cursor: pointer;
+		}
+		ul li:hover a{
+			color: white;
+		}
+</style>
 </head>
 <body>
-	<h1>Очень простая страничка фотографа</h1>
-	<h2>Учимся ее верстать</h2>
-	<div class="photo-block">
-		New York City - Central Park
-	</div>
-	<div class="button-block">
-		<a class="button-block" href="">ЕЩЕ ФОТО</a>
-	</div>
-	<div class="list-block">
-		<p>Перечень услуг</p>
-		<ul>
-			<li>Фото пейзажей</li>
-			<li>Свадьбы и выпускные</li>
-			<li>Семейное фото</li>
-			<li>Обработка фотографий</li>
-		</ul>
-	</div>
-	<div class="footer">
-		&#9400; Alexander Mandyk
+	<ul class="vertical">
+		<li><a href="#">Главная</a></li>
+		<li><a href="#">Галерея</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Адрес</a></li>
+		<li><a href="#">Товары</a></li>
+	</ul>
 	</div>
 </body>
 </html>
