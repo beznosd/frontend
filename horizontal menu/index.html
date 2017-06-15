@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>horizontal menu</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+	body{
+	margin: 0
+}
+
+header{
+	background: black;
+}
+
+.menu{
+	width: 1024px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.menu ul{
+	margin: 0;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.menu ul li:last-child{
+	background: green;
+	float: right;
+}
+
+.menu ul li:hover{
+	background: lightgreen;
+}
+</style>
+<body>
+	<header>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+	</header>
+</body>
+</html>
