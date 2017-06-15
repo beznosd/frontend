@@ -2,6 +2,7 @@ body {
 	background: url();
 	margin: 0;
 }
+
 header {
 	background: grey;
 	color: white;
@@ -9,15 +10,26 @@ header {
 	font-family: sans-serif;
 	height: 70px}
 
-div {
+header div {
 	padding: 25px;
 	height: 20px;
 }
 
-div:hover {
+header div:hover {	
 background: lightgreen;
 color: grey;
-cursor: pointer;}
+cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
 
 .button1 {
 	margin-left: 200px;
@@ -28,14 +40,50 @@ cursor: pointer;}
 	float: left;
 	}
 
-.button3 {
-	float: left;
-}
-
 .button4 {
 	float: right;
 	margin-right: 200px;
 }
 
+.h {
+	text-align: center;
+}
 
+.gallery {
+	width: 1024px;
+	margin: 0 auto;
+	}
+.gallery:after {
+	content: '';
+	display: block;
+	clear: bouth;
+}
+
+	.img-block {
+		width: 250px;
+		height: 290px;
+		outline: 1px solid grey;
+		background: #ccc;
+		text-align: center;
+		float: left;
+		margin:3px;
+	}
+
+	.img-block img {
+		width: 100%;
+	}
+
+	
+	.img-block .text {
+		text-align: center;
+		padding: 10px 0;
+
+	}
+
+	.img-block:hover {
+			background: white;
+		}
+  .img-block:hover img {
+			opacity:0.7;
+		}
 
