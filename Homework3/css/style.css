@@ -1,0 +1,94 @@
+body {
+	background-image:	url(../images/back.jpg);
+	margin: 0px;
+}
+
+.header {
+	margin: 0 auto;
+	background: black;
+}
+
+.page {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;  
+	text-align: center;
+	font-size: 28px;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #000;
+	font-weight: bold;
+}
+
+nav {
+	position: relative;
+	height: 50px;
+	background: black;
+}
+
+nav a {
+	color: #fff;
+	line-height: 50px;
+	padding: 15px;
+	border: none;
+}
+
+nav a:hover {
+	background: #1EFF40;
+	border: 2px solid #1EFF40 ;
+}
+
+.last {
+	position: absolute;
+	top: 0px;
+  left: 948px;
+}
+
+.block-img {
+	width: 1024px;
+	display: inline-block;
+	margin: 10px 0px 20px 0px;
+}
+
+.img {
+	background-color: #a1a1a1;
+	width: auto;
+	height: 320px;
+	border: 1px solid #000;
+	margin: 0px 4px 0px 0px;
+	float: left;
+	text-align: center;
+}
+.photo-block1 {
+	float: right;
+	padding: 0px 0px 10px 15px;
+}
+
+.photo-block2 {
+	float: left;
+	padding: 5px 15px 5px 0px;
+}
+
+.img-footer {
+	margin: 0;
+	height: 40px;
+	background: #000;
+	line-height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+

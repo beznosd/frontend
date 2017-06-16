@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	background-color: #FFF2AA;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #03436C;
+}
+
+h2 {
+	color: #67016E;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.photo-block {
+	height: 600px;
+	background-image: url('../images/city.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+	padding-right: 15px;
+	text-align: right;
+	font-family: 'Indie Flower';
+	color: #FFF;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.button-block {
+	margin: 50px 0;
+	text-align: center;
+}
+
+a.button{
+	background: #009933;
+	font-size: 20px;
+	padding: 10px 20px;
+	border:4px solid #909090;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.button:hover {
+	background-color: white;
+	color: #009933;
+	border-color: #909090;
+}
+
+.list-block p {
+	padding-left: 50px;
+}
+
+ul {
+	background: #ff9999;
+  padding: 20px;
+}
+
+ul li {
+	background: #ffe5e5;
+	padding: 5px;
+	margin: 5px;
+	margin-left: 30px;
+}
+
+.footer {
+	background: #fff url('../images/medved.jpg') no-repeat right top;
+	padding: 20px;
+	text-align: center;
+}
