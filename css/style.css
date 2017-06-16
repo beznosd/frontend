@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+<<<<<<< HEAD
 }
 
 body {
@@ -55,3 +56,43 @@ footer  .img {
 	display: inline-block;
 	padding: 0 5px;
 }
+=======
+	padding: 0;
+	font-family: sans-serif;
+}
+
+div.container {
+	height: 60px;
+	width: 100%;
+	background: #1e1e1e;
+}
+
+div.menu {
+	height: 60px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	display: block;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+}
+
+li:last-child {
+	float: right;
+	background: green;
+}
+
+a:hover {
+	background: lightgreen;
+	color: black;
+}
+>>>>>>> 4f85093c1d664fc71b6ce43882f6e9f510ad70e7
