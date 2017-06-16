@@ -1,0 +1,40 @@
+.gallery-container {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.gallery-container .gallery {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.gallery-container .img-container {
+	width: 250px;
+	border: 1px solid #474747;
+	background: #CDCDCD;
+	margin: 0 2px;
+	float: left;
+	text-align: center;
+}
+
+.gallery-container .gallery img {
+	width: 100%;
+}
+
+.gallery-container .text {
+	padding: 15px;
+}
+
+.gallery-container .img-container:hover {
+	background: white;
+}
+
+.gallery-container .img-container:hover .img {
+	opacity: 0.5;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}

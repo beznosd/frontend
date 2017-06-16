@@ -1,100 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Gloria+Hallelujah|Indie+Flower|Montserrat');
-
 * {
 	margin: 0;
-	padding: 0;
 }
 
-.header {
-	background-color: #FFF2AB;
-	min-height: 100px;
-	font-family: 'Droid Sans', sans-serif;
-}
-
-.header h1, h3 {
-	text-align: center;
-}
-
-.header h1 {
-	color: #064365;
-	padding: 20px
-}
-
-.header h3 {
-	color: #640B64;
-	padding: 0 20px 20px;
-}
-
-.under-header {
-	background-image: url(../images/new_york_city.jpg);
-	height: 500px;
-	color: #FEFDF3;
-	text-align: right;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	padding: 20px;
-	font-size: 30px;
-	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
+body {
+	background: url(../img/back.jpg);
+	font-family: sans-serif;
 }
 
 .content {
-	background-color: #FFF2AB;
-	max-height: 300px;
-	padding: 20px;
-}
-
-.content a {
-	padding: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	border: 5px solid #807F7F;
-	background: #008100;
-	color: #F3FEE5;
+	width: 1024px;
 	margin: 0 auto;
-	width: 130px;
-	display: block;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 20px;
 }
 
-.content a:hover {
-	color: grey;
-	background: lightgreen;
-}
-
-.content p {
-	padding: 20px 20px 20px 50px;
-	font-size: 16px;
-	font-family: 'Gloria Hallelujah', cursive;
-}
-
-.content ul {
-	background: #FF999A;
-	padding: 20px 20px 20px 40px;
-}
-
-.content li {
-	background: #FFE2E4;
-	margin: 5px;
-	padding: 0 5px 0;
-	font-size: 16px;
-	font-family: monospace;
-}
-
-.footer {
+.content > h1 {
 	text-align: center;
-	background-image: url(../images/preved_medved.jpg);
-	background-repeat: no-repeat;
-	background-position: right top;
-	height: 70px;
+	margin: 40px 0 20px;
 }
 
-.footer p {
-	line-height: 70px;
+.content > p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.content > img {
+	width: 300px;
+}
+
+.content #img1 {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.content #img2 {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+footer {
+	height: 60px;
+	width: 100%;
+	background: #333333;
 	text-align: center;
-	font-family: 'Droid Sans', sans-serif;
+}
+
+footer > .footer {
+	padding: 11.7px 0;
+}
+
+footer > img {
+	padding: 0 20px;
+}
+
+footer  .img {
+	display: inline-block;
+	padding: 0 5px;
 }

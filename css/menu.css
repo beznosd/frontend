@@ -1,0 +1,47 @@
+nav {
+	font-family: sans-serif;
+	height: 60px;
+	width: 100%;
+	background: #333333;
+}
+
+nav .nav-container {
+	height: 60px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+	padding: 20px;
+}
+
+nav li:last-child {
+	float: right;
+	background: #4FB14E;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+nav li:hover {
+	background: green;
+}
+
+nav li:hover a {
+	color: black;
+}
+
+nav li:after {
+    content: "";
+    display: table;
+    clear: both;
+}
