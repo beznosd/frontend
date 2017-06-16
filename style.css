@@ -1,94 +1,55 @@
-.nav {
-      width: 100%;
-      float: left;
-      margin: 0 0 0px 0px;
-      padding: 10px;
-      list-style: none; 
-      background-color: #2F4F4F;
-      border-bottom: 2px solid #FFF8DC;
-      border-top: 2px solid #FFF8DC;
-    
-      }
-.nav li {
-      float: left; 
-      display: block;
-      padding: 8px 20px;
-      font-weight: bold;
-      margin : 0 0px 0px 0px;
-     
-      
-    }
+body {
+  background: url(metro.jpg) ;
+   background-size: 100%;
+  }
 
- .nav a{
-   	color :#E0FFFF;
-   	text-decoration: none;
-    
+ h2{
+ 	text-align: center;
+ 	color :#DCDCDC;
+ 	font-family: fantasy;
+ 	font-size: 150px;
+ 	text-shadow: 10px 10px 10px black;
+ }
+
+ .nav {
+ 	float: left;
+ 	list-style: none;
+ 	font-size: 20px;
+ 	width: 100%;
+ 	padding: 10px;
+ 	background-color: #C0C0C0;
+    border-bottom: 2px solid #FFF8DC;
+    border-top: 2px solid #FFF8DC;
 
  }
- .nav li a:hover {
+
+.nav li {
+	float: left;
+	display: block;
+    padding: 8px 20px;
+    font-weight: bold;
+    margin : 0 0px 0px 150px;
+
+}
+.nav a{
+   	color :#2F4F4F;
+   	text-decoration: none;
+   	text-shadow: 0px 0.5px 1px #696969;
+}
+
+.nav li a:hover {
       color: #c00;
       background-color: #fff;
       padding: 19px;
       text-decoration: none;
- }
- body 
- { 
-  background-image: url(img.jpg) ;
-  width: 100%;
-   background-size: 100%;
-
-}
-
-#img{
-    margin: 0px 0px 0px 250px;
   }
-h1 {
-  text-align: center;
-  color:#FFFFFF;
-}
 
-.right {
-  float: left;
-  margin: 0 250px 200px 250px;
-  display :inline-block;
-  color: #FFFFFf;
-}
-
-
-.left {
-  float: right;
-  margin: 0px 250px 250px 250px;
-  display :inline-block;
-  color: #000000;
+.look {
+	text-align: center;
 }
 
 .mini {
-  float: left;
-  margin:0 0 0px 0px;
-  background-color: #191970 ;
-  padding: 10px;
-  display: block;
-  width: 100%;
-  border-bottom: 2px solid #FFF8DC;
-  border-top: 2px solid #FFF8DC;
-
-
-    }
-
-  li2 {
-    margin: 0 0 0 1250px;
-    display: block;
-      padding: 8px 20px;
-      font-weight: bold;
-  }
-.nav li2 a:hover {
-      color: #c00;
-      background-color: #fff;
-      padding: 19px;
-      text-decoration: none;
+	margin: 0 0px 0px 550px;
 }
 
-.mini img {
-   margin: 0 0px 0px 325px;
-   
-}
+
