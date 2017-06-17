@@ -1,4 +1,6 @@
 # Front-end Group BrainAcademy Zaporizhya
 
-## Решенное вертикальное меню в папке vertical-menu
-## Прошлое домашнее в папке simple-page-1
+* Сверстанный нами кусочек макета в папке GoodInc
+* Домашнее по float(стрпница с природой) в папке simple-page-2
+* Решенное вертикальное меню в папке vertical-menu
+* Страница фотографа в папке simple-page-1

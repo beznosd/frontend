@@ -1,0 +1,102 @@
+body {
+  background: #ebebeb;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@font-face {
+  font-family: Nexa-Bold;
+  src: url('../fonts/Nexa Bold.otf');
+}
+
+@font-face {
+  font-family: Nexa-Light;
+  src: url('../fonts/Nexa Light.otf');
+}
+
+/* Header */
+
+.header-logo {
+  height: 65px;
+  background: #373737;
+}
+
+.header-logo__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.header-logo__text {
+  color: white;
+  line-height: 65px;
+  margin-left: 5px;
+  font-family: Nexa-Light;
+}
+
+.header-logo__image {
+  float: left;
+}
+
+/* Navigation (top menu) */
+
+.header-nav {
+  height: 65px;
+  background: #474747;
+}
+
+.header-nav__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.nav__item {
+  float: left;
+  padding: 25px 0;
+}
+
+.nav__link-wrapper {
+  display: block;
+  padding: 0 25px;
+  border-right: 1px solid #767676;
+}
+
+/* Вместо '.class' внизу подставить нужный класс */
+.nav__item:last-child .nav__link-wrapper {
+  /* Убрать рамку */
+  border-right: none;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+}
+
+/* При наведении */
+.nav__link:hover:after,
+/* Всегда для активной ссылки */
+.nav__link_active:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: #f26c4f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -23px;
+}
+
+
+
