@@ -38,7 +38,7 @@ a:hover {
 
 .button2 {
 	float: left;
-	}
+}
 
 .button4 {
 	float: right;
@@ -52,7 +52,7 @@ h1, h2 {
 .gallery {
 	width: 1024px;
 	margin: 0 auto;
-	}
+}
 
 .gallery:after {
 	content: '.';
@@ -109,4 +109,5 @@ text-align: justify;
 footer {
 	background: grey;
 	padding: 10px 0px;
-	text-align: center;}
+	text-align: center;
+}
