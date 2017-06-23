@@ -1,0 +1,14 @@
+.first {
+	background-color: yellow;
+	text-align: center;
+	float: left;
+	margin: 50px;
+
+}
+.first:hover span {
+
+}
+span {
+	opacity: 0;
+
+}
