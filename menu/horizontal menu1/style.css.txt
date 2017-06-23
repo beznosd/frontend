@@ -1,0 +1,38 @@
+#mainmenu {
+background: black;
+position: relative;
+overflow: hidden;
+height: 60px;
+margin: 3px 0
+
+}
+#mainmenu ul {
+list-style:none;
+margin:0;
+padding:10px;
+position: relative;
+left:50%;
+float:left;
+font:14px Arial, Helvetica, sans-serif;
+height:65px;
+}
+
+#mainmenu ul li {
+position:relative;
+float:left;
+margin:0 10px;
+height:65px
+}
+
+#mainmenu ul li a {
+color: #fff;
+display:block;
+text-decoration:none;
+padding:0 15px;
+line-height: 40px;
+}
+
+#mainmenu ul li a:hover {
+background-color: grey;
+text-decoration: underline; 
+}
