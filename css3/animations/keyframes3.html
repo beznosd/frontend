@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Keyframes 3</title>
+</head>
+<!-- http://cubic-bezier.com/ -->
+<style>
+	body, html {
+		margin: 0;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	.sky {
+		background: lightblue;
+		height: 40%;
+		text-align: center;		
+		position: relative;
+	}
+
+	.grass {
+		height: 30%;
+		background: seagreen;
+		position: relative;
+	}
+
+	.road {
+		height: 30%;
+		background: dimgrey;
+		box-sizing: border-box;
+		border-top: 10px solid grey;
+		border-bottom: 10px solid grey;
+		width: 100%;
+		position: relative;
+	}
+
+	.lines {
+		box-sizing: border-box;
+		border: 5px dashed #fff;
+		height: 0;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+	}
+
+	/* Elements to animate */
+
+	.mario {
+		position: absolute;
+		top: -40px;
+		left: 0;
+		animation-name: drive;
+		animation: drive 3s linear infinite, 
+					jump 0.3s ease 1.2s infinite;
+	}
+
+	.luigi {
+		position: absolute;
+		top: 70px;
+		left: 0;
+		transform: rotateY(180deg);
+		animation: drive 5s linear infinite both normal;
+	}
+
+	.cloud {
+		position: absolute;
+		top: 6px;
+		right: 0;
+		height: 220px;
+		animation: cloudmove 10s linear 3s infinite both;
+	}
+
+	/* Keyframes */
+
+	@keyframes drive {
+		from {
+			transform: translateX(-150px);
+		}
+		to {
+			transform: translateX(2000px); 
+		}
+	}
+
+	@keyframes cloudmove {
+		from {
+			transform: translateX(300px);
+		}
+		to {
+			transform: translateX(-2000px); 
+		}
+	}
+
+	@keyframes jump {
+		0% {
+			top: -40px;
+		}
+		50% {
+			top: -140px;
+		}
+		100% {
+			top: -40px;
+		}
+	}
+
+</style>
+<body>
+	<div class="sky">
+		<img class="cloud" src="images/cloud1.png" alt="cloud">
+	</div>
+	<div class="grass">
+		<img class="f1" src="images/f1.png" alt="f1">
+		<img class="f2" src="images/f2.png" alt="f2">
+		<img class="f3" src="images/f3.png" alt="f3">
+		<img class="f4" src="images/f4.png" alt="f4">
+		<img class="f5" src="images/f5.png" alt="f5">
+	</div>
+	<div class="road">
+		<div class="lines"></div>
+		<img class="mario" src="images/mario.png" alt="mario">
+		<img class="luigi" src="images/luigi.png" alt="luigi">
+	</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Button transition</title>
+</head>
+<style>
+  button {
+  	position: absolute;
+  	left: calc(50% - 100px);
+  	top: 100px;
+  	width: 200px;
+  	height: 100px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  button:hover {
+  	background-color: green;
+  	color: white;
+  }
+</style>
+<body>
+	<button>Зеленая кнопка</button>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transition</title>
+</head>
+<style>
+	body {
+		background: lightblue;
+		text-align: center;
+	}
+
+	.wrapper {
+		margin-top: 50px;
+	}
+	
+	.circle {
+		width: 100px;
+		padding: 50px 0;
+		margin: 60px auto;
+		line-height: 0;
+		background: pink;
+		color: white;
+		border-radius: 30%;
+		cursor: pointer;
+		transition: all 1s ease;
+	}
+
+	.circle:hover {
+		background: salmon;
+		transform: rotate(360deg);
+	}
+
+	img {
+		transition: all 1s;
+	}
+
+	img:hover {
+		transform: rotate(180deg);
+	}
+</style>
+<body>
+	<div class="wrapper">
+		<img src="cloud.png" alt="cloud">
+		<div class="circle">Hover Me!</div>
+	</div>
+</body>
+</html>
