@@ -1,0 +1,41 @@
+.body {
+	background-color: #354245;
+}
+
+.button {
+	height: 200px;
+	width: 100px;
+	background: linear-gradient (to bottom, #fff, #000);
+	box-shadow: 0 0 5px 3px rgba (0,0,0,0.5);
+	border-radius: 20px;
+	border: 2px solid brown;
+	color: skyblue;
+	padding: 50px;
+	background: #423521;
+}
+
+button:hover {
+	background: green;
+	color: orange;
+}
+
+
+.now {
+	width: 100px;
+
+	font-family: comic;
+	font-size: 16px;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+	background: lightgrey;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 10px 10px 0px rbga(0,0,0,0.5);
+}
+
+.right {
+	display: block;
+	background: white;
+	}
+

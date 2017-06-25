@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-image: url("../img/back.jpg");
+}
+
+.menubar {
+	background-color: #110;
+}
+
+.menu {
+	padding-left: 180px;
+	width: 1024px;
+	height: 60px;
+	font-family: sans-serif;
+	list-style: none;
+}
+
+ul li {
+	margin-right: 20px;
+	float: left;
+	padding: 20px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li:last-child {
+	float: right;
+	background-color: green; 
+}
+
+ul li:hover{
+	background-color: #222;
+}
+
+ul li:hover a {
+	color: yellow;
+}
+
+.content {
+	margin: 15px;
+	padding-left: 27px; 
+	
+}
+.gallery {
+	width: 1024px;
+	min-height: 350px;
+	margin:0 auto;
+}
+
+.img-block {
+	width: 245px;
+	text-align: center;
+	background: #ccc;
+	border:1px solid black;
+	float:left;
+	margin:3px;
+	outline: 1px solid black;
+}
+.img-block img {
+	width: 100%;
+}
+
+.img-block .text {
+	padding: 12px 0;
+}
+
+.img-block:hover {
+	background: white;
+}
+
+.img-block:hover img {
+	opacity: 0.7;
+}
+
+.text {
+	padding: 0px 145px 0px 145px;
+   font-size: 1.2em;
+}
+
+h1{
+	margin-top: 52px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.rightimg  {
+  float: right; /* Выравнивание по правому краю  */ 
+  margin: 0px 0 12px 12px; /* Отступы вокруг картинки */
+}
+
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 0px 12px 12px 0; /* Отступы вокруг картинки */
+}
+ 
+.footer {
+	margin: 0 auto;
+	padding: 7px ;
+	background: #011;
+	text-align: center;
+}

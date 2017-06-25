@@ -1,0 +1,213 @@
+body {
+  background: #ebebeb;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@font-face {
+  font-family: Nexa-Bold;
+  src: url('../fonts/Nexa Bold.otf');
+}
+
+@font-face {
+  font-family: Nexa-Light;
+  src: url('../fonts/Nexa Light.otf');
+}
+
+/* Header */
+
+.header-logo {
+  height: 65px;
+  background: #373737;
+}
+
+.header-logo__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.header-logo__text {
+  color: white;
+  line-height: 65px;
+  margin-left: 5px;
+  font-family: Nexa-Light;
+}
+
+.header-logo__image {
+  float: left;
+}
+
+/* Navigation (top menu) */
+
+.header-nav {
+  height: 65px;
+  background: #474747;
+}
+
+.header-nav__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.nav__item {
+  float: left;
+  padding: 25px 0;
+}
+
+.nav__link-wrapper {
+  display: block;
+  padding: 0 25px;
+  border-right: 1px solid #767676;
+}
+
+/* Вместо '.class' внизу подставить нужный класс */
+.nav__item:last-child .nav__link-wrapper {
+  /* Убрать рамку */
+  border-right: none;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+}
+
+/* При наведении */
+.nav__link:hover:after,
+/* Всегда для активной ссылки */
+.nav__link_active:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: #f26c4f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -23px;
+}
+
+/* Поиск с иконкой часы*/
+
+.nav_icon {
+  width: 942px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0;
+}
+
+.search input {
+  width: 300px;
+  height: 46px;
+  float: left;
+  border: none;
+  background-image: url(../images/icons/clock.png);
+  background-repeat: no-repeat;
+  background-position: 260px;
+  padding-left: 20px;
+
+}
+/* Картинка*/
+.content__feature {
+  margin-top: 10px;
+}
+
+.feature__img {
+  float: left;
+  position: relative;
+  width: 630px;
+  height: 390px;
+  background: url(../images/featured-img.jpg);
+}
+
+.feature__img-text {
+  position: absolute;
+  right: 0;
+  bottom:0;
+  color: white;
+  font-family: "Nexa-Light";
+  font-size: 16px;
+  font-weight: 300;
+  background: rgba(0,0,0,0.5);
+  padding: 15px 20px 15px 20px;
+}
+
+.content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.feature__text {
+  float: right;
+  height: 350px;
+  width: 233px;
+  padding: 40px 35px 0;
+  background: #373737;
+  border-left: 9px solid #f26c4f; 
+  color: white;
+  position: relative;
+}
+
+.feature__text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: block;
+  width: 0;
+  border-left: 12px solid #f26c4f;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.feature__text-header {
+  font-family: arial;
+  font-size: 1.4
+}
+
+.feature__text-simple, 
+.feature__text-data {
+ font-family: arial;
+ font-size: 12px;
+ color: #a7a7a7;
+ line-height: 25px;
+ margin-top: 10px;
+}
+
+.feature__text-data {
+  text-align: right;
+  background: url(../images/icons/clock-data.png) center no-repeat;
+}
+
+/*Block pictures*/
+
+.gallery {
+  width: 300px;
+  background: white;
+  font-family: arial;
+}
+
+.vegetables .skala .pepper{
+  width: 300px;
+  height: 186px;
+
+}
+
+.paragraf_h {
+  text-align: center;
+  color: rgb( 79, 79, 79 );
+}
+
+.text_p {
+ text-align: center;
+}
