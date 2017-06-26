@@ -1,4 +1,4 @@
-# Front-end Group BrainAcademy Zaporizhya
+# Grid
 
 Новые изменения
   * В папке *css3* примеры с анимациями, плавными переходами и градиентами
