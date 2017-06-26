@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+.block-sky {
+    width: 100%;
+    height: 300px;
+    background: skyblue;
+}
+
+.block-grass {
+    width: 100%;
+    height: 270px;
+    background-color: green;
+}
+
+.block-road {
+    width: 100%;
+    height: 240px;
+    background-color: gray;
+    border-top: 15px solid lightgrey;
+    border-bottom: 15px solid lightgrey;
+}
+
+.block-road__inner-line {
+    border-top: 7px dashed lightgrey;
+    border-bottom: 7px dashed lightgrey;
+    margin-top: 115px;
+}
+
+.block-sky__img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    animation-name: planer-sky;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    left: -100px;
+}
+.block-road__img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-top: 10px;
+}
+
+.snail {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: snail-animation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 27s;
+    right: -5px;
+}
+
+.planer_road {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: planer-animation, test;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    left: -100px;
+}
+
+@keyframes snail-animation {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(-1600px);
+    }
+}
+
+@keyframes planer-animation {
+    from {
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translatex(1500px);
+    }
+}
+
+@keyframes planer-sky {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(2000px);
+    }
+}
