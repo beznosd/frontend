@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Queries</title>
+  <style>
+
+    .content {
+      padding: 20px;
+      background: red;
+      color: white;
+      margin: 50px;
+      font-size: 2.2rem;
+      text-align: center;
+      background: red;
+    }
+
+    /* показывать при разрешении больше 1024px, а при меньшем скрывать */
+
+    @media screen and (max-width: 1024px){
+      .content-1 {
+        background: white;
+        color: grey;
+      }
+    }
+
+
+    /* показывать при разрешении меньше 1024px, а при большем скрывать */
+
+    @media screen and (min-width: 1024px){
+      .content-2 {
+        background: white;
+        color: grey;
+      }
+    }
+
+
+    /* от такого до такого скрывать */
+
+    @media screen and (min-width: 700px) and (max-width: 900px){
+      .content-3{
+        background: white;
+        color: grey;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content content-1">
+    (max-width: 1024px) <br/>
+    больше 1024px показать, а при меньшем скрыть
+  </div>
+  <div class="content content-2">
+    (min-width: 1024px) <br/>
+    меньше 1024px показать, а при большем скрыть
+  </div>
+  <div class="content content-3">
+    (min-width: 700px) and (max-width: 900px) <br/>
+    скрыть только от 700px до 900px
+  </div>
+</body>
+</html>
