@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+}
+button {
+	color: white;
+	background: black;
+	width: 300px;
+	height: 150px;
+	border-radius: 30px;
+	border: none;
+	font-size: 2rem;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: linear;
+}
+button:hover {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	transform: rotate(360deg);
+}
+.gradient {
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	margin: 50px;
+	background: linear-gradient(to right, green, #2cb5e8);
+	
+}
+.gradient:hover {
+	box-shadow: 50 50 0 0.5 red;
+	transition-timing-function: linear;
+	transition: all .9s;
+
+}

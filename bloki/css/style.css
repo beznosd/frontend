@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+.conteiner {
+	width: 1024px;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.first {
+	width: 250px;
+	float: left;
+	text-align: center;
+	background: #ccc;
+	outline: 1px solid black;
+	margin: 3px;
+}
+.first img {
+	width: 100%;
+}
+.first .text {
+	padding: 12px 0;
+}
+.first:hover {
+	background: white;
+	
+}
