@@ -1,0 +1,67 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	overflow-x: hidden;
+}
+.sky {
+	background: #5FEBEB;
+	height: 40%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.tuchka {
+	position: absolute;
+	top: -250px;
+	animation-name: gonki;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+}
+.trava {
+	height: 30%;
+	width: 100%;
+	background: #50BF53;
+	position: relative;
+}
+.doroga {
+	background: #6A6A6A;
+	height: 30%;
+	width: 100%;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	position: relative;
+
+}
+.line {
+	height: 0;
+	width: 100%;
+	border: 5px dashed white;
+	position: absolute;
+	bottom: 50%;
+}
+.mario {
+	position: absolute;
+	top: -45px;
+	animation-name: gonki;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.luigi {
+	position: absolute;
+	bottom: 45px;
+	animation-name: gonki;
+	animation-duration: 6.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+@keyframes gonki {
+	0% {
+		transform: translateX(-140px);
+	}
+	100% {
+		transform: translateX(2500px);
+}
