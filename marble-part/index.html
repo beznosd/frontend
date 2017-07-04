@@ -2,13 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Marble Accomplishments</title>
+  <title>Marbel Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="header">
+    <div class="header__wrapper clearfix">
+      <h1 class="header__logo">Marbel</h1>
+      <nav class="top-nav">
+        <button class="top-nav__burger"></button>
+        <div class="top-nav__links">
+          <a href="#" class="top-nav__link top-nav__link_active">Home</a>
+          <a href="#" class="top-nav__link">About</a>
+          <a href="#" class="top-nav__link">Journal</a>
+          <a href="#" class="top-nav__link">Service</a>
+          <a href="#" class="top-nav__link">Features</a>
+          <a href="#" class="top-nav__link">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Big picture -->
+  <div class="banner">
+    <img class="banner__img" src="images/banner.jpg" alt="banner">
+    <div class="banner__line banner__line1">
+      <span class="banner__mob-line-1">We are a digital &amp; branding</span> agency based in London.
+    </div>
+    <div class="banner__line banner__line2">
+      We love to turn great ideas into beautiful products.
+    </div>
+    <a href="#" class="banner__button">See Portfolio</a>
+  </div>
+
+  <!-- Main content -->
   <main class="content wrapper">
+    
+    <!-- Circles (4 columns) -->
     <section class="content__accomplishments clearfix">
       <article class="circle">
         <img class="circle__img" src="images/circle1.png" alt="circle1">
@@ -31,6 +63,38 @@
         <p class="circle__text">Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
       </article>
     </section>
+
+    <!-- Latests works (3 columns) -->
+    <section class="content__latest-works clearfix">
+      <h2 class="content__header">Our Latest Works</h2>
+      <article class="work">
+        <div class="work__img-wrapper">
+          <img class="work__img" src="images/article1.jpg">
+        </div>
+        <h3 class="work__header">New Fun Project</h3>
+        <p class="work__tags">Business Card, Graphix</p>
+        <p class="work__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id culpa eos distinctio!</p>
+      </article>
+      <article class="work work_margin">
+        <div class="work__img-wrapper">
+          <img class="work__img" src="images/article2.jpg">
+        </div>
+        <h3 class="work__header">New Fun Project</h3>
+        <p class="work__tags">Business Card, Graphix</p>
+        <p class="work__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id culpa eos distinctio!</p>
+      </article>
+      <article class="work">
+        <div class="work__img-wrapper">
+          <img class="work__img" src="images/article3.jpg">
+        </div>
+        <h3 class="work__header">New Fun Project</h3>
+        <p class="work__tags">Business Card, Graphix</p>
+        <p class="work__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id culpa eos distinctio!</p>
+      </article>
+    </section>
   </main>
+
+  <!-- Start write code here -->
+
 </body>
 </html>
