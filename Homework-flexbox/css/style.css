@@ -1,0 +1,42 @@
+body {
+	background: #fff;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.main,
+.articles {
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.grey {
+	background: grey;
+	margin: 15px;
+	height: 70px;
+
+}
+.blue {
+	flex-grow: 1;
+}
+
+.small_blue {
+	width: 340px;
+	flex-grow: 0;
+}
+
+.blue,
+.small_blue {
+	background: blue;
+	margin: 10px;
+	height: 500px;	
+}
+
+.pink {
+	background: pink;
+	margin: 10px 10px;
+	height: 265px;
+	width: 455px;
+	align-items: center;
+}
