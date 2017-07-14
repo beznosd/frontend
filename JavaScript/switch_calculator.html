@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Switch calculator</title>
+</head>
+<body>
+	<script>
+		/*
+		* Написать калькулятор простой калькулятор 
+		* функцией prompt получить два числа и знак
+		* подсчитать и вывести результат
+		*/
+
+		var a = +prompt("Введите число 1");
+		var b = +prompt("Введите число 2");
+		var sign = prompt("Введите знак");
+
+		switch (sign) {
+			case '+':
+				alert(a + b);
+				break;
+			case '-':
+				alert(a - b);
+				break;
+			case '/':
+				alert(a / b);
+				break;
+			case '*':
+				alert(a * b);
+				break;
+			default:
+				alert('Incorrect operator, type only: \'+\' \'-\' \'/\' \'*\'');
+		}
+	</script>
+</body>
+</html>
