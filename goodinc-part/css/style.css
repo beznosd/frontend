@@ -1,0 +1,271 @@
+body {
+  background: #ebebeb;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@font-face {
+  font-family: Nexa-Bold;
+  src: url('../fonts/Nexa Bold.otf');
+}
+
+@font-face {
+  font-family: Nexa-Light;
+  src: url('../fonts/Nexa Light.otf');
+}
+
+/* Header */
+
+.header-logo {
+  height: 65px;
+  background: #373737;
+}
+
+.header-logo__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.header-logo__text {
+  color: white;
+  line-height: 65px;
+  margin-left: 5px;
+  font-family: Nexa-Light;
+}
+
+.header-logo__image {
+  float: left;
+}
+
+/* Navigation (top menu) */
+
+.header-nav {
+  height: 65px;
+  background: #474747;
+}
+
+.header-nav__content {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.nav__item {
+  float: left;
+  padding: 25px 0;
+}
+
+.nav__link-wrapper {
+  display: block;
+  padding: 0 25px;
+  border-right: 1px solid #767676;
+}
+
+/* Вместо '.class' внизу подставить нужный класс */
+.nav__item:last-child .nav__link-wrapper {
+  /* Убрать рамку */
+  border-right: none;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+}
+
+/* При наведении */
+.nav__link:hover:after,
+/* Всегда для активной ссылки */
+.nav__link_active:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: #f26c4f;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -23px;
+}
+
+/* Main content */
+
+.content {
+  width: 942px;
+  margin: 0 auto 90px;
+}
+
+/* Search - social panel */
+
+.content__panel {
+  margin-top: 15px;
+}
+
+.content__search {
+  float: left;
+}
+
+.search {
+  height: 45px;
+}
+
+.search__input {
+  height: 100%;
+  width: 300px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 40px 15px 20px;
+  box-sizing: border-box;
+  border: none;
+  background: #fff url(../images/icons/clock.png) no-repeat right 10px center;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #505050;
+}
+
+.search__input::-webkit-input-placeholder {
+   font-family: arial;
+   font-weight: bold;
+   color: #959595;
+}
+.search__input:-moz-placeholder { 
+   font-family: arial;
+   font-weight: bold;
+   color: #959595;  
+}
+.search__input::-moz-placeholder {  
+   font-family: arial;
+   font-weight: bold;
+   color: #959595;  
+}
+.search__input:-ms-input-placeholder {  
+   font-family: arial;
+   font-weight: bold;
+   color: #959595; 
+}
+
+.content__social {
+  float: right;
+}
+
+.social {
+  padding-top: 11px;
+}
+
+.social__link {
+  display: inline-block;
+  margin-left: 25px;
+  color: #474747;
+  font-size: 12px;
+  font-family: arial;
+  text-decoration: none;
+  height: 12px;
+  padding-left: 20px;
+  background: url(../images/icons/socials-sprite.png) no-repeat;
+}
+
+.social__link_tw {
+  background-position: 0px 2px;
+}
+
+.social__link_fc {
+  background-position: 0px -10px;
+}
+
+.social__link_rss {
+  background-position: 0px -22px;
+}
+
+.social__link_ml {
+  background-position: 0px -33px;
+}
+
+.social__link:first-child {
+  margin-left: 0;
+}
+
+/* Featured image with text block */
+
+.content__feature {
+  margin-top: 10px;
+}
+
+.feature__img {
+  float: left;
+  position: relative;
+  width: 630px;
+  height: 390px;
+  background: url(../images/featured-img.jpg);
+}
+
+.feature__img-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  font-family: 'Nexa-Light';
+  font-size: 16px;
+  font-weight: 300;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 30px;
+}
+
+.feature__text {
+  position: relative;
+  float: right;
+  height: 350px;
+  width: 233px;
+  padding: 40px 35px 0px;
+  background: #373737;
+  border-left: 9px solid #f26c4f;
+  color: white;
+  font-family: Arial;
+}
+
+.feature__text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: block;
+  width: 0;
+  border-left: 12px solid #f26c4f;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.feature__text-header {
+  font-size: 1.4rem;
+}
+
+.feature__text-simple,
+.feature__text-data {
+  font-size: 12px;
+  color: #a7a7a7;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.feature__text-data {
+  text-align: right;
+  background: url(../images/icons/clock-data.png) no-repeat 125px center;
+}
+
+
+
+
